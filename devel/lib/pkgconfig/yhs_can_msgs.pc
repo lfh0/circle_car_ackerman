@@ -1,0 +1,8 @@
+prefix=/home/minipc/0FH/circle/devel
+
+Name: yhs_can_msgs
+Description: Description of yhs_can_msgs
+Version: 0.0.0
+Cflags: -I/home/minipc/0FH/circle/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

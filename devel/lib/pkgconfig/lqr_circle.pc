@@ -1,0 +1,8 @@
+prefix=/home/minipc/0FH/circle/devel
+
+Name: lqr_circle
+Description: Description of lqr_circle
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs sensor_msgs pcl_ros nav_msgs yhs_can_msgs message_runtime

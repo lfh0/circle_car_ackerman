@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+    <!-- 803用的是bag.yaml ,学校里面是school.yaml-->
+    <node name="map_load" pkg="map_server" type="map_server" args="$(find lqr_circle)/maps/lab202.yaml" />
+
+    <node name="rviz2" pkg="rviz" type="rviz" required="true" args="-d $(find lqr_circle)/config/rviz/rviz.rviz" />
+
+    <node name="lqrserver" pkg="lqr_circle" type="lqrserver" output="screen" >
+        <param name="akeman_car_odom_topic" value= "akeman_car_odom_topic" />
+    </node>
+
+
+</launch>

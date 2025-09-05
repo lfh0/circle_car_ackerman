@@ -1,0 +1,2 @@
+lqr_circle:yhs_can_msgs
+-DCATKIN_DEVEL_PREFIX=/home/minipc/0FH/circle/devel -DCMAKE_INSTALL_PREFIX=/home/minipc/0FH/circle/install -G Unix Makefiles
